@@ -1,0 +1,175 @@
+@font-face {
+    src: url("../fonts/geflow.otf");
+    font-family: 'arabic';
+}
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+*{
+    font-family: 'arabic', 'Cairo', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, li, div, section{
+    font-family: 'arabic', 'Cairo', sans-serif;
+}
+
+ul.site-menu{
+    text-align: right;
+}
+
+.card-block .grey-800{
+    float: right !important;
+}
+
+.card-block .grey-700{
+    float: left !important;
+}
+
+.card-block div:not([class*=jvector]){
+    text-align: right;
+}
+
+.counter.counter-lg.text-left{
+    text-align: right !important;
+}
+
+#widgetCurrentChart > div .btn-floating,
+#widgetUserList .card-block .btn-floating{
+    left: 20px;
+    right: auto;
+}
+
+.avatar{
+    float: right;
+}
+
+.md-mail-send:before{
+    display: block;
+    transform: rotate(180deg);
+}
+
+#widgetUserList .card-header .overlay-background{
+    text-align: right;
+}
+
+#widgetUserList .card-header .overlay-background div > a{
+    float: right !important;
+    margin-left: 15px;
+    margin-right: 0 !important;
+}
+
+#widgetUserList .card-block .list-group-item .pr-20{
+    padding-right: 0 !important;
+    padding-left: 15px;
+}
+
+.panel{
+    text-align: right !important;
+}
+
+.navbar-toolbar .nav-item .dropdown-menu{
+    right: 0 !important;
+    left: auto !important;
+}
+
+.dropdown-menu-media .dropdown-menu-header .badge{
+    right: auto !important;
+    left: 20px !important;
+}
+
+.dropdown-menu-media .list-group-item .media .pr-10{
+    padding-right: 0 !important;
+    padding-left: 15px !important;
+}
+
+#widgetCurrentChart > div{
+    text-align: right !important;
+}
+
+.page-header{
+    text-align: right !important
+}
+
+.page-header-actions{
+    left: 30px !important;
+    right: auto !important;
+}
+
+.page-content{
+    text-align: right !important;
+}
+
+.checkbox-custom label,
+.radio-custom label{
+    padding-left: 0 !important;
+    padding-right: 25px !important;
+}
+
+.checkbox-custom label::before,
+.radio-custom label::before{
+    right: 0;
+    left: auto;
+}
+
+.checkbox-primary input[type=checkbox]:checked+input[type=hidden]+label::after, .checkbox-primary input[type=checkbox]:checked+label::after, .checkbox-primary input[type=radio]:checked+input[type=hidden]+label::after, .checkbox-primary input[type=radio]:checked+label::after,
+.checkbox-custom label::after{
+    right: 0;
+    left: auto;
+}
+
+.radio-custom label::after{
+    right: 7px;
+    left: auto;
+}
+
+.select2-results__options{
+    text-align: right;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field{
+    text-align: right;
+}
+
+.ui-tooltip,
+.ui-helper-hidden-accessible{
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    left: 1.072rem;
+    right: auto;
+}
+
+.z-marg{
+    margin-top: 0;
+}
+
+.datepicker.datepicker-dropdown{
+    right: auto !important;
+}
+
+.datepicker table tr td, .datepicker table tr th,
+[data-plugin=datepicker]{
+    font-family: sans-serif;
+}
+
+.input-search .form-control{
+    border-radius: 3px;
+}
+
+.md-header.btn-toolbar::after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.md-editor .md-controls .md-control{
+    color: #999;
+}
+
+.md-editor{
+    width: 100%;
+}

@@ -1,0 +1,105 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.57142857;
+    color: #757575;
+    text-align: right !important;
+}
+
+.site-menu > .site-menu-item {
+    display: inline-block;
+    float: right;
+}
+
+.navbar-toolbar {
+    float: right;
+}
+
+.navbar-right, .navbar-toolbar-right {
+    float: left;
+}
+
+.navbar-toolbar .nav-item .dropdown-menu {
+    left: 0 !important;
+    right: auto !important;
+}
+
+.btn-group, .btn-group-vertical {
+    float: left;
+
+}
+
+.dt-panelmenu {
+    margin-bottom: 20px;
+
+}
+
+.dataTables_filter input {
+    height: 2.573rem;
+    padding: .429rem 1.072rem;
+    font-size: 1rem;
+    line-height: 1.57142857;
+}
+
+.dataTables_filter label {
+    width: 50%;
+}
+
+.card-block div:not([class*="jvector"]) {
+    text-align: left;
+}
+
+.button-editor button {
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.fa.fa-check.fa-fw.up_img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #00a65a;
+    color: #FFF;
+    line-height: 1.5;
+    top: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center !important;
+}
+
+.fa.fa-close.fa-fw.up_img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #f00;
+    color: #FFF;
+    line-height: 1.5;
+    top: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media only screen and (max-width: 767.98px) {
+
+    body.site-navbar-small .site-menubar {
+        top: 4.286rem;
+        height: calc(100% - 4.286rem);
+        left: 0;
+    }
+
+    .site-menu > .site-menu-item {
+        width: 100%;
+    }
+
+    .site-menu-arrow {
+        position: absolute;
+        left: 30px !important;
+    }
+
+}
