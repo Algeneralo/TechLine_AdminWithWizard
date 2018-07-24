@@ -5,7 +5,7 @@ $(".addBtn").on('click', function () {
     div.find(".fa-plus-circle").addClass('fa-trash').removeClass("fa-plus-circle");
     div.find(".btn-success").addClass('fa-trash-circle').removeClass("fa-plus-circle");
     div.find('input[type="text"]').val("");
-    div.find('input[type="checkbox"]').not(':first-of-type').prop('checked', false);
+    div.find('input[type="checkbox"]').not(':first').prop('checked', false);
     div.find('input[type="hidden"]').val("0");
     $(".panel-body").append(div);
 

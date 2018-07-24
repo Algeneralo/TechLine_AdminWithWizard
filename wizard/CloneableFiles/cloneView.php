@@ -92,7 +92,7 @@ $data = $classObject->GetRecords();
                                         <i class="icon md-edit" aria-hidden="true"></i>
                                     </a>
                                     <button type="button"
-                                            data-table="category"
+                                            data-table="cloneClass"
                                             class="btn btn-sm btn-icon <?= $datum['active'] == 1 ? 'btn-warning' : 'btn-success' ?>  btn-round active-confirm"
                                             data-message="<?= $datum['active'] ?>" data-id="<?= $datum['id'] ?>"
                                             data-toggle="tooltip"
@@ -102,7 +102,7 @@ $data = $classObject->GetRecords();
                                     <?php
 //                                    if ($datum['type'] == 0):?>
                                         <button type="button"
-                                                data-table="category"
+                                                data-table="cloneClass"
                                                 class="btn btn-sm btn-icon btn-danger btn-round delete-confirm"
                                                 data-message='حذف' data-id="<?= $datum['id'] ?>" data-toggle="tooltip"
                                                 data-original-title="حذف ">

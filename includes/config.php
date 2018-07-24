@@ -1,5 +1,5 @@
 <?php
-        define('_SERVER', 'localhost');
-        define('_UserName', 'user');
-        define('_PassWord', '123');
-        define('_DBname', 'ass3');
+        define('_SERVER', '');
+        define('_UserName', '');
+        define('_PassWord', '');
+        define('_DBname', '');
